@@ -48,7 +48,7 @@ def main(argv=None):
 
     # View 3D points
     x, y, z = np.random.random((4, 40))
-    color = np.random.randint(90, 95, (40))/100
+    color = (np.random.randint(0, 5, (40)) + 90)/100 # create different label to be different color but similar size
     mlab.points3d(x, y, z, color, scale_factor=0.1)
     mlab.show()
 
