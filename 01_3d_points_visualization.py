@@ -47,7 +47,7 @@ def main(argv=None):
     print('Hello! This is Mayavi 3D points visualization Program')
 
     # View 3D points
-    x, y, z = np.random.random((4, 40))
+    x, y, z = np.random.random((3, 40))
     color = (np.random.randint(0, 5, (40)) + 90)/100 # create different label to be different color but similar size
     mlab.points3d(x, y, z, color, scale_factor=0.1)
     mlab.show()

@@ -1,0 +1,22 @@
+name: mayavi
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - numpy
+  - numpy-base
+  - pip
+  - python=3.6
+  - pip:
+    - apptools
+    - cython
+    - envisage
+    - vtk
+    - mayavi
+    - pyface>=6.0.0
+    - pygments
+    - Sphinx
+    - traits>=4.6.0
+    - traitsui>=6.0.0
+    - PyQt5
+
