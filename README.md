@@ -10,9 +10,7 @@ Windows & OS X & Linux:
 2. Install environment:
 
 ```sh
-conda create --name mayavi python=3.6 numpy
-source activate mayavi
-conda install -c viscid-hub vtk mayavi -y # Or: `conda install -c viscid-hub vtk mayavi -y`
+conda env create -f environment.yml
 ```
 
 ## Run sample
